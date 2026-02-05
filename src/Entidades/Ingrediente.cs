@@ -2,19 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lanchonete
+namespace Lanchonete.src.Entidades
 {
-    internal class Item
+    internal class Ingrediente
     {
-        public string Codigo { get; }
         public string Nome { get; }
         public decimal Preco { get; }
 
-        public Item(string codigo, string nome, decimal preco)
+        public Ingrediente(string nome, decimal preco)
         {
-            Codigo = codigo;
             Nome = nome;
             Preco = preco;
         }
+        
     }
 }

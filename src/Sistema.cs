@@ -1,10 +1,11 @@
-﻿using Spectre.Console;
+﻿using Lanchonete.src.Entidades;
+using Spectre.Console;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 
-namespace Lanchonete
+namespace Lanchonete.src
 {
     internal class Sistema
     {
@@ -105,7 +106,7 @@ namespace Lanchonete
             Console.WriteLine("\n");
 
             AnsiConsole.MarkupLine("============== CONTA ================");
-            AnsiConsole.MarkupLine($"Preço Final: {precoFinal}");
+            AnsiConsole.MarkupLine($"Preço Final: {precoFinal:F2}");
             AnsiConsole.MarkupLine("=====================================");
 
             Console.WriteLine("\n");

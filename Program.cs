@@ -1,4 +1,6 @@
 ﻿using Lanchonete;
+using Lanchonete.src;
+using Lanchonete.src.Entidades;
 
 List<Item> Cardapio = new List<Item>
 {
