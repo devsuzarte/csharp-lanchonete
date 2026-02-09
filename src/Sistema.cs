@@ -92,7 +92,7 @@ namespace Lanchonete.src
                     AnsiConsole.MarkupLine($"[gold3]{lanche.Nome}[/] R$ {lanche.Preco:F2} | Preço Total: R$ {lanche.PegarPrecoTotal():F2}");
                     foreach(var ingrediente in lanche.PegarIngedientesSelecionados())
                     {
-                        AnsiConsole.MarkupLine($"   - {ingrediente.Nome}: {ingrediente.Preco}");
+                        AnsiConsole.MarkupLine($"   - {ingrediente.Nome}: {ingrediente.Preco:F2}");
                     }
                 }
 
