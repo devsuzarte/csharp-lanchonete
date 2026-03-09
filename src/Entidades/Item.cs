@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lanchonete.src.Entidades
 {
-    internal class Item
+    internal abstract class Item
     {
         public string Codigo { get; }
         public string Nome { get; }
